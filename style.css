@@ -24,11 +24,10 @@ body{
 	width: 180px;
 }
 .opciones{
-	text-align: center;
 	display: inline-block;
 	margin: 0;
-    width: 15%;
-    padding: 6 50px;
+    width: 13%;
+
 }
 .imagen{
 	width: 250px;
@@ -86,11 +85,16 @@ body{
 	display: inline-block;
 }
 .parrafo{
+	height: 40px;
 	font-family: "Arial";
-	color: black;
+	color: #32618D;
+	padding-top: 15px;
 	font-size: 15px;
 	font-weight: bold;
-	width: 90%
+	text-align:center;
+	width: 100%
+	
+
 }
 
 /*Movil*/
@@ -127,10 +131,9 @@ body{
 	width: 340px;
 }
 .opciones{
-	text-align: center;
 	display: inline-block;
 	margin: 0;
-    width: 15%;
+    width: 13%;
 }
 
 .lados{
@@ -200,6 +203,14 @@ body{
 	text-align: center;
 }
 .parrafo{
-	width: 90%;
+
+	height: 40px;
+	font-family: "Arial";
+	color: #32618D;
+	padding-top: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align:center;
+	width: 100%
 }
 }
