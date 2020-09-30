@@ -1,4 +1,7 @@
 /*Computadora*/
+body{
+	margin:0;
+}
 .cont1{
 	text-align: center;
 	background-color: #32618D;
@@ -85,6 +88,9 @@
 
 @media screen and (max-width: 1200px)
 {
+body{
+	margin: 0;
+}
 .cont1{
 	background-color:#326181 ;
 	width: 100%;
