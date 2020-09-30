@@ -24,12 +24,11 @@ body{
 	width: 180px;
 }
 .opciones{
-
-	font-family: "Arial";
-	color: #3A5482;
-	width: 65%;
-	font-size: 13px;
-	padding-left: 350px
+	text-align: center;
+	display: inline-block;
+	margin: 0;
+    width: 15%;
+    padding: 6 50px;
 }
 .imagen{
 	width: 250px;
@@ -53,7 +52,7 @@ body{
 	float: top;
 }
 .formulario{
-	display: inline-grid;
+	display: block;
 	padding-top: 20px;
 	text-align: top;
 	margin-bottom: 10px;
@@ -83,6 +82,16 @@ body{
 	height: 50px;
 	font-size: 15px;
 }
+.lado-foto{
+	display: inline-block;
+}
+.parrafo{
+	font-family: "Arial";
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	width: 90%
+}
 
 /*Movil*/
 
@@ -91,6 +100,7 @@ body{
 body{
 	margin: 0;
 }
+
 .cont1{
 	background-color:#326181 ;
 	width: 100%;
@@ -117,15 +127,18 @@ body{
 	width: 340px;
 }
 .opciones{
-	float: right;
-	width: 100%;
-	text-align: left;
-	font-family: "Arial";
-	color: #3A5482;
-	font-size: 20px;
+	text-align: center;
+	display: inline-block;
+	margin: 0;
+    width: 15%;
 }
-th{
-	padding: 4px 50px;
+
+.lados{
+	text-decoration-color: blue;
+	text-align: center;
+	font-weight: bold;
+	float: center;
+	display: inline-block;
 }
 .imagen{
 	width: 600px;
@@ -163,14 +176,10 @@ th{
 	background-color: #32618d;
 	width: 20%;
 	color: white;
-	display: inline-block;
-	padding: 20px 1px;
 	font-family: Arial;
-	text-decoration:none;
-	text-align: center;
-	border-radius: 5px;
-	font-size: 15px;
-	border:1px solid;
+	border-radius: 50px;
+	margin: auto;
+	font-size: 36px;
 }
 .pie{
 	background-color: #32618d;
@@ -180,5 +189,17 @@ th{
 	width: 100%;
 	height: 70px;
 	font-size: 20px;
+}
+.bajar-foto{
+	display: block;
+}
+.lado-foto{
+	float: center;
+}
+.centro{
+	text-align: center;
+}
+.parrafo{
+	width: 90%;
 }
 }
