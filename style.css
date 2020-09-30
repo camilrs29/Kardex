@@ -4,6 +4,10 @@
 	width: 100%;
 	text-align: center;
 }
+.cuadros{
+	display: inline-block;
+	width: 250px
+}
 .redes{
 	float: right;
 	text-align: right;
@@ -23,6 +27,7 @@
 	padding-left: 350px
 }
 .imagen{
+	width: 250px;
 }
 .oferta{
 	text-align: center;
@@ -74,12 +79,16 @@
 
 /*Movil*/
 
-@media screen and (max-width: 768px)
+@media only screen and (max-width: 768px)
 {
 .cont1{
 	background-color: #32618D;
 	width: 100%;
 	text-align: center;
+}
+.cuadros{
+	width: 100%;
+	display: block;
 }
 .redes{
 	float: right;
@@ -92,7 +101,7 @@
 	width: 180px;
 }
 .opciones{
-	width: 100;
+	width: 50%;
 	font-family: "Arial";
 	color: #3A5482;
 	font-size: 12px;
