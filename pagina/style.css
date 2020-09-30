@@ -4,6 +4,10 @@
 	width: 100%;
 	text-align: center;
 }
+.cuadros{
+	display: inline-block;
+	width: 250px
+}
 .redes{
 	float: right;
 	text-align: right;
@@ -23,6 +27,7 @@
 	padding-left: 350px
 }
 .imagen{
+	width: 250px;
 }
 .oferta{
 	text-align: center;
@@ -81,6 +86,10 @@
 	width: 100%;
 	text-align: center;
 }
+.cuadros{
+	width: 100%;
+	display: block;
+}
 .redes{
 	float: right;
 	text-align: right;
@@ -92,7 +101,7 @@
 	width: 180px;
 }
 .opciones{
-	width: 100;
+	width: 50%;
 	font-family: "Arial";
 	color: #3A5482;
 	font-size: 12px;
